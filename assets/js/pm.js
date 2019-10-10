@@ -370,7 +370,7 @@
         }).done(function() {
           var map = new AMap.Map('pnl-map',{
             zoom: 17,
-            center: [115.977634, 29.709759]
+            center: [117.2030357950, 31.8390459075]
           });
           var marker = new AMap.Marker({
             position: map.getCenter()
@@ -380,7 +380,7 @@
           // 设置label标签
           marker.setLabel({
             offset: new AMap.Pixel(-75, -30),
-            content: "PM Infinity婚礼于10月5日晚"
+            content: "CT ∞ 婚礼于1月30日中午"
           });
         }).fail(function() {
 
