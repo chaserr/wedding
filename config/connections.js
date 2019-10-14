@@ -98,7 +98,7 @@ module.exports.connections = {
       dialectOptions: {
         charset: 'utf8mb4'
       },
-      host: '127.0.0.1',
+      host: '52.199.44.119',
       port: 3306,
       logging: true,
       timezone: "+08:00",
