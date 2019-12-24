@@ -380,7 +380,7 @@
           // 设置label标签
           marker.setLabel({
             offset: new AMap.Pixel(-75, -30),
-            content: "CT ∞ 婚礼于1月30日中午"
+            content: "TC ∞ 婚礼于1月30日中午"
           });
         }).fail(function() {
 
