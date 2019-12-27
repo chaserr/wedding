@@ -5,7 +5,7 @@
 
   PM.bgm = new PM.BGM($('#bgm-audio'), {
     src: '/audios/nameoflove.mp3',
-    autoplay: false
+    autoplay: true
   });
 
 
@@ -16,7 +16,7 @@
     fade: true,
     cssEase: 'linear',
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     lazyLoad: 'ondemand'
   }).on('afterChange', function(e, slick, index) {
     var $img = $(slick.$slides[index]).find('img').addClass('disable-tilt');
